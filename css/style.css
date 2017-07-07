@@ -1,0 +1,131 @@
+.card{
+	background-color: black;
+	width: 100%;
+	height: 40px;
+	/*float: right;*/
+
+
+}
+.navh ul{
+	list-style-type: none;
+	/*margin: 0;
+	padding: 0;
+	/*width: 200px;*/
+	overflow: hidden;
+	background-color: #333;
+}
+.navh li{
+ float: right;
+}
+.navh li:first-child{
+	border-bottom: none;
+}
+.navh li a{
+	display: block;
+	/*width: 160px;*/
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align: center;
+	min-width: 160px;
+}
+
+.navh li a:hover{
+	background-color: #111;
+}
+.navh .active{
+	background-color:#FF55C2;
+	color: white;
+
+}
+
+.navh .nav-item-left{
+	float:left;	
+}
+
+
+.card1{
+	height:10px;
+	width: 100%;
+	background-color:#FF55C2;
+}
+
+.card2{
+	text-align: center;
+	background-color: grey;
+	width: 100%;
+	height:60px;
+}
+
+.card3{
+	
+background-image: url('../images/coworking.jpg');
+	height: 600px;
+	background-size: cover;
+	/*padding-top: 150px;*/
+	text-align:center;
+	color: black; 
+
+}
+
+.btn-primary{
+	background-color: #FF55C2;
+	border-color: none;
+	padding: 10px 86px;
+	top:40px;
+}
+
+.Wrapper-grey{
+	background: white;
+	color: ;
+}
+.card3 .card-white{
+	height:300px;
+	width: 550px;
+	background-color:white;
+	/*padding-right:20px;*/
+	box-shadow: 1px 1px 2px #e7e7e7;
+	border-radius:solid 4px;
+	margin: 20px 40px;
+	float:right;
+	border-color:black;
+	margin-top:70px;
+	
+}
+
+.card4{
+	min-height:130px; 
+    margin-bottom:30px;
+}
+.alt{
+	height: 18vh;
+	width: 32%;
+	background-color:none;
+	margin-left: 12px;
+	float: left;
+	margin-top:20px;
+	margin-bottom: 30px;
+	text-align: center;
+	border-color: white;
+}
+p{
+	text-align: center;
+
+
+}
+
+.h3{
+	text-align: center;
+
+}
+.button{
+	background-color:black;
+	border-color: none;
+
+}
+.footer{
+	background-color: black;
+	margin-top: 10px;
+	min-height: 20px;
+	font-size: 20px;
+}
